@@ -21,18 +21,7 @@ The core goal is to understand the secure separation of client-side and server-s
 ---
 
 ## 🏗 Conceptual Project Structure
-/note-book-app
-|-- /client               # ⚛️ React Application (Frontend)
-|
-|-- /server               # ⚙️ Node.js/Express API Server (Backend)
-|   |-- index.js          # Main server initialization and configuration
-|   |-- routes/           # API route definitions
-|   |   |-- notes.js      # CRUD routes for /api/notes
-|   |
-|   |-- serviceAccountKey.json # Firebase Admin SDK configuration (if used)
-|
-|-- .gitignore            # Specifies intentionally untracked files to ignore
-|-- package.json          # Project dependencies and scripts (root level)
+
 
 
 ---
