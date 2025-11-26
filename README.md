@@ -21,7 +21,15 @@ The core goal is to understand the secure separation of client-side and server-s
 ---
 
 ## 🏗 Conceptual Project Structure
-/note-book-app |-- /client # React Application |-- /server # Node.js/Express API Server |   |-- index.js # Main server initialization and configuration |   |-- routes/notes.js # CRUD route definitions |   |-- serviceAccountKey.json |    # ⚠️ CRITICAL: DO NOT COMMIT THIS FILE TO GIT!
+/note-book-app
+|-- /client         # ⚛️ React Application (Frontend)
+|
+|-- /server         # ⚙️ Node.js/Express API Server (Backend)
+|   |-- index.js    # Main server initialization and configuration
+|   |-- routes/notes.js # CRUD route definitions for /api/notes
+|   |
+|   |-- serviceAccountKey.json 
+|   |  
 
 
 ---
