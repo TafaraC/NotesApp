@@ -22,6 +22,17 @@ The core goal is to understand the secure separation of client-side and server-s
 
 ## 🏗 Conceptual Project Structure
 
+This structure outlines the key directories and files for the full-stack application.
+
+* **`/note-book-app`**
+    * **`/client`** (⚛️ React Application - Frontend)
+    * **`/server`** (⚙️ Node.js/Express API Server - Backend)
+        * `index.js` (Main server initialization and configuration)
+        * **`/routes`**
+            * `notes.js` (CRUD route definitions for `/api/notes`)
+        * `serviceAccountKey.json` (Firebase Admin SDK configuration)
+    * `.gitignore` (Specifies intentionally untracked files to ignore)
+    * `package.json` (Project dependencies and scripts)
 
 
 ---
